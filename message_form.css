@@ -55,20 +55,6 @@
     top: 260px;
 }
 
-.message_form_input_container, .message_form_textarea_container {margin: 0 70px;
-    width: 660px;
-    position: absolute;
-}
-
-.message_form_input_container {
-    position: absolute;
-    top: 170px;
-}
-
-.message_form_textarea_container {position: absolute;
-    top: 260px;
-}
-
 .message_form_send_button {position: absolute;
     left: 632px;
     bottom: 90px;
