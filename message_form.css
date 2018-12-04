@@ -1,0 +1,95 @@
+*{font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    color: #333;
+}
+
+.message_form_body {background: #dedede;
+}
+
+.message_form {
+    background: #fff;
+    height: 620px;
+    width: 800px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.6);
+}
+
+.message_form_envelope{border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin: 0 auto;
+    top: -60px;
+    border: 1px solid #dedede;
+    background: #fff url("letter.png") no-repeat center;
+}
+
+.message_form_h1 {text-align: center;
+    margin-top: -10px;
+    font-size: 30px;
+}
+
+.message_form_name_input, .message_form_email_input, .message_form_textarea { border: 1px solid #dedede;
+    outline: none;
+    padding: 15px;
+    margin: 0 70px;
+    position: absolute;
+}
+
+.message_form_name_input, .message_form_email_input {height: 30px;
+    width: 285px;
+    margin-right: 0;
+    font-size: 20px;
+    top: 170px;
+}
+
+.message_form_email_input {right: 68px;
+}
+
+.message_form_textarea {height: 170px;
+    width: 630px;
+    font-size: 16px;
+    top: 260px;
+}
+
+.message_form_input_container, .message_form_textarea_container {margin: 0 70px;
+    width: 660px;
+    position: absolute;
+}
+
+.message_form_input_container {
+    position: absolute;
+    top: 170px;
+}
+
+.message_form_textarea_container {position: absolute;
+    top: 260px;
+}
+
+.message_form_send_button {position: absolute;
+    left: 632px;
+    bottom: 90px;
+    height: 50px;
+    width: 100px;
+    background: #ff4b5a;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.message_form_name_input:focus, .message_form_email_input:focus, .message_form_textarea:focus {
+    border: 1px solid #ff4b5a;
+}
+
+.message_form_name_input:active, .message_form_email_input:active, .message_form_textarea:active {
+    border: 1px solid #ff4b5a;
+}
+
+.message_form_send_button:hover {background-color: #333;
+}
+
+.message_form_name_input, .message_form_email_input, .message_form_textarea, .message_form_send_button {border-radius: 2px;*/
+/*}
